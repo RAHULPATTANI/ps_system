@@ -1,7 +1,9 @@
+
+/* header part */
 .header_wapper 
 {
     background-color : #027cd7;
-    height: 147px;
+    height: 150px;
     width: 100%;
     background-attachment: scroll;
 }
@@ -41,10 +43,7 @@ li.header_li a.header_a:hover {
 /*	section part of header */
 .s_header
 {
-	height: 80px;
-	width: 978px;
 	padding-left: 147px;
-
 }
 
 .logo
@@ -52,29 +51,25 @@ li.header_li a.header_a:hover {
 	float: left;
 }
 
-.logo>img
+.logo > img
 {
 	height:38px;
 	width: 149px;
+	padding-right: 30px;
 }
 
 .search_bar
 {
-	float: left;
-
+	
 }
 
 .search_input
 {
-	height: 38px;
-	width: 149px;
-	padding-right: 6px;
-	padding-left: 35px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	height: 34px;
+	width: 450px;
 }
 
-input[type:"button"]
+.search
 {
 	background-color: #fdd922;
 	border: 1px solid,#e0bc27;
@@ -84,13 +79,17 @@ input[type:"button"]
 	height: 34px;
 	cursor: pointer;
 	width: 147px;
-	position: relative;
 }
 
 .cart
 {
-	background-color:#027cd7; 
-	color: #ffffff;
+	background-color: #027cd7;
+	border: none,#027cd7;
+	line-height: 17px;
+	text-transform: uppercase;
+	font-size: 18px;
+	height: 35px;
+	width: 120px;
 }
 
 /*	footer part of header */
@@ -124,11 +123,195 @@ li.footer_li a.footer_a:hover {
     background-color: #ffffff;
     color: #000000;
 }
-.logo
+
+
+/* section part */
+.section_wapper
 {
-	float: left;
+    border: 10px solid #0000ff;
+    padding-left: 250px;
+    padding-top: 50px;
 }
-.search_search
+.leftbar
 {
-	float: left;
+    display: inline-block;
+    height: 4300px;
+    width: 750px;
+    border: 3px solid #73AD21;
+    float: left;
 }
+.offer
+{
+    height: 80px;
+    width: 730px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border:1px solid #ffffff; 
+    margin-bottom: 10px;
+}
+
+.slide_show
+{
+    height: 360px;
+    width: 730px;
+    margin-bottom: 10px;
+
+}
+.ss_image
+{
+    height:300px;
+    width: 730px;
+    border:1px solid #ffffff;
+}
+
+.offer_option
+{
+    height: 52px;
+    width: 144px;
+    border:1px solid #ffffff;
+    float: left;
+    background-color: #424242;
+    color: #ffffff;
+}
+
+.offer_option:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    border-bottom: 2px solid #fdd922;
+}
+/*catagory portion */
+.catagory
+{
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    height: 295px;
+    width: 730px; 
+    clear: left;
+}
+.catagory_header
+{ 
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 40px;
+    width: 730px;
+    background-color: #666666;
+    clear: both;
+}
+.catagory_item
+{
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.mid_item
+{
+    height: 250px;
+    width: 380px;
+    border:1px solid #666666;
+    float: left;
+    margin: 2px;
+
+}
+.item
+{
+    height: 250px;
+    width: 172px;
+    border:1px solid #666666;
+    float: left;
+    margin: 2px;
+
+}
+.item:hover
+{
+    border: 2px solid #fdd922;
+} 
+ 
+.mid_item:hover
+{
+    border: 2px solid #fdd922;
+}
+
+
+
+
+.rightbar
+{
+    display : inline-block;
+    height : 1300px;
+    width : 240px;
+    border : 3px solid #AD2173;
+    padding-right : 147px;
+    float : left;
+}
+
+.advertise
+{
+    width : 230px;
+    height : 105px;
+    border : 1px solid #424242;
+    margin-left : 20px;
+    margin-bottom : 20px;
+
+}
+.advertise:hover
+{
+   border : 2px solid #fdd922; 
+}
+
+/* just launched menu */
+.just_launched
+{
+    border : 1px solid #424242;
+    height: 310px;
+    width: 234px;
+    margin-left : 20px;
+} 
+.jl_tag
+{
+    background-color: #0c375b;
+    height: 22px;
+    width: 214px;
+    color: #ffffff;
+    padding-left : 20px;
+    
+}
+.jl_menu
+{
+    height : 43px;
+    width :214px;
+    border : 1px solid #424242;
+    padding-left : 20px;
+}
+.jl_menu:hover
+{
+     border : 2px solid #fdd922;
+     color : #0000ff;
+}
+
+.fc_app
+{
+    height: 340px;
+    width: 230px;
+    border: 1px solid #424242;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.section_footer
+{
+    height: 300px;
+    width: 1000px;
+    border: 3px solid #730021;
+    padding-left: 250px;
+    clear: left;
+}
+
+/* footer part */
