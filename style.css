@@ -3,28 +3,40 @@
 .header_wapper 
 {
     background-color : #027cd7;
-    height: 150px;
+    height: 170px;
     width: 100%;
     background-attachment: scroll;
 }
 
+/*
+-- it will add for static view  --
+*/
+.hw
+{
+	width: 1100px;
+	margin-left: 260px;
+}
+
 /* header part of header */
+
 a.header_a {
     display: block;
     padding: 8px;
     background-color: #027cd7;
+    position: static;
 }
 
 li.header_li {
     float: right;
     display: inline;
+    position: static;
 }
 
 ul.header_ul {
     list-style-type: none;
-    padding-right: 147px;
     overflow: hidden;
     background-color: #027cd7;
+    position: static;
 }
 
 li.header_li a.header_a {
@@ -33,17 +45,27 @@ li.header_li a.header_a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position: static;
 }
 
 li.header_li a.header_a:hover {
     text-decoration: underline;
     color: #ffffff;
+    position:static; 
 }
 
 /*	section part of header */
+.h_header
+{
+	padding-left: 5px;
+	width:1000px;
+	position: static;
+}
 .s_header
 {
-	padding-left: 147px;
+	padding-left: 5px;
+	width:1000px;
+	position: static;
 }
 
 .logo
@@ -56,11 +78,6 @@ li.header_li a.header_a:hover {
 	height:38px;
 	width: 149px;
 	padding-right: 30px;
-}
-
-.search_bar
-{
-	
 }
 
 .search_input
@@ -91,62 +108,73 @@ li.header_li a.header_a:hover {
 	height: 35px;
 	width: 120px;
 }
+.f_header
+{
+	padding-left: 5px;
+	width:1000px;
+	position: static; 
+}
 
 /*	footer part of header */
-a.footer_a {
+a.footer_a 
+{
     display: block;
     padding: 8px;
     background-color: #027cd7;
 }
 
-li.footer_li {
+li.footer_li
+{
     float: left;
     display: inline;
 
 }
-ul.footer_ul {
+ul.footer_ul
+{
     list-style-type: none;
-    padding-left: 10%;
+    padding-left: 5px;
     overflow: hidden;
     background-color: #027cd7;
 }
 
-li.footer_li a.footer_a {
+li.footer_li a.footer_a
+{
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
 }
 
-li.footer_li a.footer_a:hover {
+li.footer_li a.footer_a:hover
+{
     background-color: #ffffff;
     color: #000000;
 }
-
 
 /* section part */
 .section_wapper
 {
     border: 10px solid #0000ff;
     padding-left: 250px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .leftbar
 {
     display: inline-block;
-    height: 4300px;
+    height: 1300px;
     width: 750px;
     border: 3px solid #73AD21;
     float: left;
 }
+
+
 .offer
 {
     height: 80px;
     width: 730px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
     padding-left: 10px;
     border:1px solid #ffffff; 
     margin-bottom: 10px;
@@ -155,21 +183,21 @@ li.footer_li a.footer_a:hover {
 .slide_show
 {
     height: 360px;
-    width: 730px;
+    width: 747px;
     margin-bottom: 10px;
 
 }
 .ss_image
 {
     height:300px;
-    width: 730px;
+    width: 747px;
     border:1px solid #ffffff;
 }
 
 .offer_option
 {
     height: 52px;
-    width: 144px;
+    width: 143px;
     border:1px solid #ffffff;
     float: left;
     background-color: #424242;
@@ -182,29 +210,30 @@ li.footer_li a.footer_a:hover {
     background-color: #ffffff;
     border-bottom: 2px solid #fdd922;
 }
-/*catagory portion */
-.catagory
+
+/*catagory portion 1*/
+.category
 {
-    margin-top: 20px;
     padding-top: 5px;
     padding-bottom:5px;
-    height: 295px;
-    width: 730px; 
+    height: 315px;
+    width: 747px; 
     clear: left;
 }
-.catagory_header
+.category_header
 { 
     margin-bottom: 5px;
     margin-top: 10px;
     height: 40px;
-    width: 730px;
+    width: 747px;
     background-color: #666666;
     clear: both;
 }
-.catagory_item
+.category_item
 {
     text-transform: uppercase;
     padding-left: 10px;
+    padding-top: 10px;
     margin-top: 10px;
     font-size: 16px;
     color: #ffffff;
@@ -212,7 +241,7 @@ li.footer_li a.footer_a:hover {
 .mid_item
 {
     height: 250px;
-    width: 380px;
+    width: 379px;
     border:1px solid #666666;
     float: left;
     margin: 2px;
@@ -237,16 +266,67 @@ li.footer_li a.footer_a:hover {
     border: 2px solid #fdd922;
 }
 
+/*catagory portion 2 */
+.category_full
+{
+    padding-top: 5px;
+    padding-bottom:5px;
+    height: 600px;
+    width: 747px; 
+}
 
+.upper_section
+{
+	height: 1400px;
+	width: 1300px;
+}
+.category_full_item
+{
+	height: 100px;
+	width: 140px;
+	float: left;
+	border-color: 1px solid #ff0000;
+	margin: 4px;
+}
 
+.category_box
+{
+	height: 70px;
+	width: 125px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.image_box
+{
+	height: 70px;
+	width: 105px;
+}
+.catagory_name
+{
+	height: 25px;
+	width: 140px;
+}
 
+.inner_section
+{
+	height: 260px;
+	width: 747px;
+}
+.lower_section
+{
+	height: 310px;
+	width: 747px; 
+	
+}
+
+/* right side section  */
 .rightbar
 {
     display : inline-block;
     height : 1300px;
-    width : 240px;
+    width : 270px;
+    margin-left: 20px;
     border : 3px solid #AD2173;
-    padding-right : 147px;
     float : left;
 }
 
@@ -268,10 +348,14 @@ li.footer_li a.footer_a:hover {
 .just_launched
 {
     border : 1px solid #424242;
-    height: 310px;
-    width: 234px;
+    height: 307px;
+    width: 235px;
     margin-left : 20px;
 } 
+.just_launched > p
+{
+	margin: 1px;
+}
 .jl_tag
 {
     background-color: #0c375b;
@@ -297,13 +381,12 @@ li.footer_li a.footer_a:hover {
 .fc_app
 {
     height: 340px;
-    width: 230px;
+    width: 235px;
     border: 1px solid #424242;
     margin-left: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
-
-
 
 .section_footer
 {
@@ -315,3 +398,42 @@ li.footer_li a.footer_a:hover {
 }
 
 /* footer part */
+.footer_wapper
+{
+	width: 1000px;
+	height: 1000px;
+	padding-left: 260px;
+}
+
+.footer_list_block
+{
+	height: 300px;
+	width: 1250px;
+}
+.footer_list
+{
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    float: left;
+} 
+
+.footer_list_tag
+{
+    height: 25px;
+    width: 300px;
+    color: #565656;
+    font-weight: bold;
+}
+.footer_list_menu
+{
+    height : 25px;
+    width :300px;
+    color: #565656;
+    border-bottom: 1px solid #e4e4e4;
+}
+.footer_list_menu:hover
+{
+    text-decoration: underline;
+    color : #0000ff;
+}
