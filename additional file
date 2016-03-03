@@ -1,0 +1,44 @@
+add catogary next step
+<!--	catagory item as ELECTRONICS & AUTO		-->
+			<div class="catogary_full">
+				<!--	catagory item header	-->
+				<div class="catagory_header">
+					<p class="catagory_item">electronics & auto</p>
+				</div>
+				<!--	catagory item left item		-->
+				<div class="upper_section">
+					<div class="catagory_full_item">
+						<div class="catagory_box">
+							<div class="image_box">
+								
+							</div>
+						</div>
+						<div class="catagory_name">
+							<p>fans</p>
+						</div>
+					</div>
+					<div class="catagory_full_item">
+					</div>
+					<div class="catagory_full_item">
+					</div>
+					<div class="catagory_full_item">
+					</div>
+					<div class="catagory_full_item">
+					</div>
+				</div>
+				<div class="inner_section">
+					<div class="item">
+						<img src="el_left.jpg">
+					</div>
+					<!--	catagory item middel item		-->
+					<div class="mid_item">
+						<img src="el_mid.jpg">
+					</div>
+					<!--	catagory item right item		-->
+					<div class="item">
+						<img src="el_right.jpg">
+					</div>
+			</div>
+			<div class="lower_section">
+				</div>
+			</div>
