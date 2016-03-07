@@ -11,7 +11,7 @@
 		<!--  header image -->
 		<div class="header_logo">
 			<img src="images/logo.png" alt="logo" class="header_icon">
-			<img src="images/process.png" alt="logo12" class="header_icon">
+			<img src="images/process.png" alt="logo12" class="header_icon" style="position: relative; top: 20px;">
 			<p class="icon_text">THE PROCESS</p>
 		</div>
 		<!--  header list -->
@@ -29,9 +29,13 @@
 				<li class="header_li">
 					<a class="header_a" href="#" style = "color: #1AC386">Eat</a>
 				</li>
-				<li class="header_li">
-					<a class="header_a" href="#" style = "color: #33B0F2">Think</a>
-				</li>
+				<li class="header_li dropdown">
+		        	<a class="header_a dropbtn" href="#" style = "color: #33B0F2" >Think</a>
+		          	<div class="dropdown-content">
+		            	<a href="#">HOW TO THINK</a>
+		            	<a href="#">THE THINK TANK</a>
+		            </div>
+        		</li>
 			</ul>
 		</div>	
 	</div>
@@ -56,7 +60,7 @@
 			<input type="text" placeholder="email@address.com"></input>
 		</div>
 	</div>
-	<div style="height:10px; width:1321px;">
+	<div style="height: 10px; width: 1321px;">
 		<div class="strip" style="background-color: #33B0F2">
 		</div>
 		<div class="strip" style="background-color: #1AC386">
@@ -65,32 +69,45 @@
 		</div>
 	</div>
 	<!-- footer part for header -->
-	<div style="height: 500px; width: 1321px;">
+	<div style="height: 430px; width: 1321px; margin-bottom: 20px; ">
 		<h3 class="tag_h3">Learn to connect the dots</h3>
 		<center><img src="images/arrow_down.png"></center>
 		<div class="dot_div">
 			<div class="dot" style="background-color: #33B0F2">
-				<p>THINK</p>
+				<p class="dot_text">THINK</p>
 			</div>
 			<div class="dot_block">
-				<img src="images/dots_horizontal.png"/>
+				<img class="dot_img" src="images/dots_horizontal.png"/>
 			</div>
 			<div class="dot" style="background-color: #1AC386 ">
-				<p>EAT</p>
+				<p class="dot_text">EAT</p>
 			</div >
 			<div class="dot_block">
-				<img src="images/dots_horizontal.png"/>
+				<img class="dot_img" src="images/dots_horizontal.png"/>
 			</div>
 			<div class="dot" style="background-color: #FC923D ">
-				<p>MOVE</p>
+				<p class="dot_text">MOVE</p>
 			</div>
 		</div>
-		<div>
+		<div style="clear: both;">
 			<div class="sec_bg1">
+				<div class="dot dot_opacity" style="background-color: #33B0F2;">
+				<p class="dot_text">THINK</p>
+				</div>
+				<img src="images/dots.png" style="float: left; position: relative; left: 290px;
+				top: -35px;">
 			</div>
 			<div class="sec_bg2">
+				<div class="dot dot_opacity" style="background-color: #1AC386;">
+				<p class="dot_text">EAT</p>
+				</div>
+				<img src="images/dots.png" style="float: left; position: relative; left: 290px;
+				top: -35px; ">
 			</div>
 			<div class="sec_bg3">
+				<div class="dot dot_opacity" style="background-color: #FC923D;">
+				<p class="dot_text">MOVE</p>
+				</div>
 			</div>
 		</div>
 		<!-- footer part for dot_dot -->
@@ -105,25 +122,42 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="banner1" style="color: #fc8412">
+	<div class="banner1">
 		<div style="float:left;">
 			<img src="images/img4.png"/>
 		</div>
+		<div>
+			<h3 class="sec_text" style="color: #fc8412">What is your fit identity?</h3>
+			<p class="text1_banner">Millions of people around the world are<br>focused on getting and staying fit to live <br>their healthiest lives.</p>
+			<ul class="text2_banner" style="left: 50px;">
+				<li>Do you ever feel like you can't achieve-or maintain-<br>the level of health and fitness you really want?</li>
+				<li>Have you followed dozens of eating plans and workout<br> programs, only to find they don't work as well for you<br> as they do for others?</li>
+			</ul>
+			<p class="text1_banner">Are you ready to get fit and stay fit?</p>
+			<p class="text2_banner">Learn to connect the dots between the three key dimensions of  <br>your health and get in the best shape of your life.</p>
+			<input type="button" value="Get Started" style="float: left;">
+		</div>
 	</div>
 	<div class="banner2">
-		<div style="float:right;">
-			<img src="images/img5.png"/>
+		<div class="banner2_left">
+			<h2 class="tag_h2">MIKE KARPENKO</h2>
+			<p class="text2_banner" style="font-size: 24px;"><i>"This is a testimonial. Praesent commodo cursus magna,<br>vel scelerisque nisl consectetur et. Maecenas sed diam."</i></p>
+			<p style="color: #191970">- PERSON NAME</p><br><br>
+			<p class="text2_banner">Mike Karpenko is a transformational fitness coach who has <br>changed the lives of people all over the world. His innovative <br>Fit Identify program is the culmination of decades of <br>leadership in the health and fitness industry.</p>
+			<input type="button" value="Learn More" style="float: left; position: relative; left:210px;">
+		</div>
+		<div class="banner2_right">
+			<img class="img_banner2" src="images/img5.png"/>
 		</div>
 	</div>
 	<div class="banner3">
-		<h3 class="tag_h3">Get your fit identity today!</h3>
-		<div style="float:left;">
-			<img src="images/img6.png"/>
+		<h3 class="tag_h3" style="color: #fc8412; font-size: 50px;">Get your fit identity today!</h3>
+		<div class="banner3_left">
+			<img class="img_banner3" src="images/img6.png"/>
 		</div>
 		<div>
-			<p><b> some text </b></p>
-			<p><b> some text </b></p>
+			<p class="text1_banner"> Start seeing results maiesuada magna<br>mollis euismod. Curabitur blandit tempus <br>porttitor.</p>
+			<p class="text2_banner"> Mike Karpenko is a transformational fitness coach who has <br>changed the lives of people all over the world. His innovative Fit <br>Identify program is the culmination of decades of leadership in the <br>health and fitness industry.</p>
 			<img src="images/btn-access.png"/>
 		</div>		
 	</div>
@@ -136,13 +170,12 @@
 				<input type="button" value="Get Started">
 				<input type="text" placeholder="email@address.com"></input>
 			</div>
-		</div>
-	
+	</div>
 	<!-- footer part for the page -->
 	<div class="footer">
 		<div style="float:left;">
-			<u>ABOUT MIKE</u>    
-			<u>TERMS/PRIVACY</u>     
+			<u>ABOUT MIKE</u>      
+			<u>TERMS/PRIVACY</u>       
 			<u>CONTACT</u><br>
 			<i class="fa fa-twitter"></i>
 			<i class="fa fa-facebook"></i>
@@ -161,8 +194,5 @@
 		<div class="strip" style="background-color: #FC923D">
 		</div>
 	</div>
-	
-	
-	
 </body>
 </html>
