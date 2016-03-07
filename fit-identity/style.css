@@ -8,10 +8,15 @@ body
 {
     margin: 0px auto;
 }
+.wp
+{
+    width: 1321px;
+    height: 105px;
+    margin: 0px auto;
+}
 .header_header
 {
-	width: 1321px;
-    height: 105px;
+	
 	border:1px solid #e4e4e4;
 }
 .header_logo
